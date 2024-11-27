@@ -1,0 +1,113 @@
+#div1{
+    background-image: linear-gradient(to right , skyblue , rgb(0, 106, 255));
+    background-color: ;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-shadow: border-box;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 325px;
+    height: 600px;
+    margin: 20px;
+    position: relative; 
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.2);
+    overflow: hidden;
+    transition: transform 0.4s ease;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.footer{
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    display: flex; 
+    width: 40px;
+    height: 50px;
+    flex-direction: row;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    object-fit: cover; 
+}
+.info {
+    display: flex;
+    flex-direction: column ; 
+}
+.name {
+    font-weight: bold; 
+    margin: 0;         
+    color: #333;
+}
+.last-seen {
+    font-size: 12px; 
+    color: #777; 
+ }
+ .footer1{
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    display: flex; 
+    width: 50px;
+    height: 50px;
+    flex-direction: row;
+}
+.logo1{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    object-fit: cover; 
+}
+.info1 {
+    display: flex;
+    flex-direction: column ; 
+}
+.name1 {
+    font-weight: bold; 
+    margin: 0;         
+    color: #333;
+}
+.last-seen1 {
+    font-size: 12px; 
+    color: #777; 
+ }
+.cardimg{
+    width: 100%;
+}
+.cardimg img{
+    width: 100%;
+    height: auto;
+}
+.content{
+    padding: 20px;
+}
+.content h3{
+    font-size: 36px;
+    margin-bottom: 5px;
+    color: black;
+}
+.content .button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: hsla(193, 43%, 43%, 0.834);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+.content .button:hover{
+    background-color: yellowgreen;
+}
